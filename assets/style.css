@@ -26,6 +26,14 @@ img {
     display: block;
 }
 
+/*.username {
+    color: #92B93C;
+}
+
+.subtitle {
+    color: #FFC107;
+}*/
+
 .background {
     position: absolute;
     top: 0px;
@@ -52,7 +60,8 @@ img {
     width: 220px;
 }
 .inner h1 {
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #92B93C;
     font-size: 54px;
     line-height: 44px;
     margin: 0px 0px 25px 0px;
@@ -60,7 +69,8 @@ img {
     height:15px
 }
 .inner h2 {
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #FFC107;
     font-size: 15px;
     line-height: 44px;
     margin: 0px 0px 25px 0px;
