@@ -51,16 +51,12 @@ console.log("what are you doing here?")
 
         </div>
     </div>
-    <audio controls autoplay>
+    <audio>
         <source src="assets/narration.mp3" type="audio/mpeg">
     </audio>
     <script>
-        let playfirst = 0;
-        function playAudio() {
-            if (playfirst != 0) { // this speaks for itself ig, just calls the function
-                document.querySelector('audio').play();
-            }
-            playfirst=playfirst+1;
+        function playAudio() { 
+            document.querySelector('audio').play();
         }
     </script>
     
