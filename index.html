@@ -55,8 +55,12 @@ console.log("what are you doing here?")
         <source src="assets/narration.mp3" type="audio/mpeg">
     </audio>
     <script>
-        function playAudio() { // this speaks for itself ig, just calls the function
-            document.querySelector('audio').play()
+        let playfirst = 0;
+        function playAudio() {
+            if (playfirst != 0) { // this speaks for itself ig, just calls the function
+                document.querySelector('audio').play();
+            }
+            playfirst=playfirst+1;
         }
     </script>
     
