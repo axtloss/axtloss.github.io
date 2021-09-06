@@ -80,16 +80,6 @@ img {
 .inner a {
     color: #ffffff;
 }
-.inner .audio {
-    color: #ffffff;
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-    font-style: italic;
-    font-size: 14px;
-    padding: 8px 0px;
-    cursor: pointer;
-}
 .column {
     float: left;
     width: 33.33%;
