@@ -25,13 +25,13 @@ console.log("what are you doing here?")
     <div class="wrapper">
         <div class="inner">
             <p align="center">
-                <img src="https://salyut.one/~axtlos/assets/pfp.png" alt="Logo" width="150" height="150">
+                <img src="assets/pfp.png" alt="Logo" width="150" height="150">
               </p>
             <div class="username">
                 <h1>axtlos</h1>
             </div>
         <div class="subtitle">
-            <h2>/'ʌkstləɒs/</h2>
+            <h2 onclick="playAudio()">/'ʌkstləɒs/</h2>
         </div>
         </br>
         <div class="subtitle">
@@ -51,5 +51,16 @@ console.log("what are you doing here?")
 
         </div>
     </div>
+    <span class="audio" onclick="playAudio()">(Click for audio)</span>
+    <audio controls autoplay>
+        <source src="assets/narration.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function playAudio() { // this speaks for itself ig, just calls the function
+            document.querySelector('audio').play()
+        }
+    </script>
+    
 </body>
+
 </html>
