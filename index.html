@@ -25,17 +25,21 @@ console.log("what are you doing here?")
     <div class="wrapper">
         <div class="inner">
             <p align="center">
-                <img src="assets/pfp.png" alt="Logo" width="150" height="150">
+                <!-- <img src="assets/pfp2.png" alt="Logo" width="150" height="150"> -->
+                <img onmouseover="this.src='assets/pfp2.png'" onmouseout="this.src='assets/pfp.png'" height="150" width="150" src="assets/pfp.png" alt="Logo"> 
               </p>
             <div class="username">
-                <h1>axtlos</h1>
+                <h1
+                    onmouseover="this.innerHTML='92B93C';"
+                    onmouseout= "this.innerHTML='axtlos';"
+                >axtlos</h1>
             </div>
         <div class="subtitle">
-            <h2 onclick="playAudio()">/'ʌkstləɒs/</h2>
+            <h2 onclick="playAudio()" onmouseover="this.innerHTML='hex: #FFC107';" onmouseout="this.innerHTML='/\'ʌkstləɒs/';">/'ʌkstləɒs/</h2>
         </div>
         </br>
         <div class="subtitle">
-    	    <h2>a german who likes to code</h2>
+    	    <h2 onmouseover="this.innerHTML='hex: #FFC107 (amber[500])';" onmouseout="this.innerHTML='a german who likes to code';">a german who likes to code</h2>
         </div>
             <div class="row">
                 <div class="column">

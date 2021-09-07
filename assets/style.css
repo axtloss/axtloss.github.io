@@ -26,13 +26,14 @@ img {
     display: block;
 }
 
-/*.username {
-    color: #92B93C;
+.hide {
+    display: none;
 }
 
-.subtitle {
-    color: #FFC107;
-}*/
+.userhover:hover + .hide {
+    display: block;
+    color:#92B93C;
+}
 
 .background {
     position: absolute;
@@ -60,7 +61,6 @@ img {
     width: 220px;
 }
 .inner h1 {
-    /*color: #ffffff;*/
     color: #92B93C;
     font-size: 54px;
     line-height: 44px;
@@ -69,7 +69,6 @@ img {
     height:15px
 }
 .inner h2 {
-    /*color: #ffffff;*/
     color: #FFC107;
     font-size: 15px;
     line-height: 44px;
