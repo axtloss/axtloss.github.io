@@ -42,6 +42,9 @@ img {
     overflow: hidden;
     z-index: 1;
 }
+.aboutme {
+    color:#ffffff;
+}
 .background img {
     object-fit: cover;
     min-height: 100vh;
@@ -89,12 +92,32 @@ img {
 .inner a {
     color: #ffffff;
 }
+
+.title h1 {
+    color: #92B93C;
+    font-size: 54px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.title h2 {
+    color:#FFC107;
+    font-size: 20px;
+    text-align: center;
+    line-height: 44px;
+}
+
+.title {
+    text-align: center;
+}
+
 .column {
     float: left;
     width: 33.33%;
     padding: 5px;
   }
-  
+
+
 .test span {
     color:#ffffff;
 }
