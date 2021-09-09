@@ -79,6 +79,17 @@ img {
     text-align: center;
     height:15px
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+
+#body {
+    max-width: 75ch;
+}
 .inner div {
     display: block;
     color: #ffffff;
