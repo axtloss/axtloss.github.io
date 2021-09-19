@@ -1,4 +1,4 @@
-# Hey! I'm axtlos
+# Hey! I'm axtlos 🐢
 ## Looks like you've managed to get to my website, or rather the part where I tell some information about myself  
   
 I'm a german developer who specialises on tools for *nix system  
@@ -42,6 +42,7 @@ These being:
 - [vAssistant](https://github.com/axtloss/vAssistant) something actually useful from me
 - [ame](https://github.com/crystal-linux/ame) the rust rebuild of a package manager/aur helper/pacman wrapper for a distribution I am building with friends
 - [amethyst](https://github.com/crystal-linux/amethyst) a package manager/aur helper/pacman wrapper for a distribution I am building with friends
+- [antinotechsavvy](https://github.com/axtloss/antinotechsavvy) a program to encrypt and decrypt your files so that people that arent very tech savvy cant view your files
 
 ## Some stuff I'm affiliated with
 [crystal linux](https://crystal-ux.com) an arch deriviate designed to work for both powerusers and linux newcomers.
