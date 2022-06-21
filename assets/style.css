@@ -16,6 +16,7 @@ p {
     color: var(--text);
 }
 
+
 * {
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
