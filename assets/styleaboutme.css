@@ -132,6 +132,13 @@ body {
     text-align: center;
 }
 
+.title h3 {
+    color: #F7A8B8;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+}
+
 .column {
     float: left;
     width: 33.33%;
